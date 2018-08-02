@@ -4,6 +4,7 @@
 
 body {
   background-color: #f2f2f2;
+  font: helvetica;
 }
 
 .sidebar {
@@ -84,6 +85,10 @@ ul.tab > li {
   padding: 5px;
 }
 
+.well {
+  margin: 5px;
+}
+
 .main-body {
   background-color: white;
 }
@@ -103,4 +108,40 @@ ul.tab > li {
   float: right;
   position:relative;
   padding-right: 10%;
+}
+
+#today {
+  background-color: #e5ffed;
+}
+
+#news {
+  background-color: #e2edff;
+}
+
+#know {
+  background-color: #e5ffed;
+}
+
+.col-md-7 {
+  box-sizing: border-box;
+  padding:20px;
+}
+
+.col-md-5 {
+  box-sizing: border-box;
+  padding:20px;
+}
+
+#today > img {
+  float: left;
+  padding: 12px;
+}
+
+#news > img {
+  float: right;
+  padding: 12px;
+}
+
+.col-md-5 {
+  padding-left: 0px;
 }
