@@ -1,5 +1,5 @@
 .container {
-  margin: 8px;
+  margin: 1%;
 }
 
 body {
@@ -11,13 +11,33 @@ body {
   width:10%;
 }
 
-ul {
+.sidebar > ul {
   list-style: none;
   padding-left: 0;
 }
 
 li {
   font-size: 12px;
+}
+
+.top-menu {
+  position: fixed;
+  float: right;
+  right:0;
+}
+
+.top-menu > ul {
+  list-style-type: none;
+  color: #a5a5a5;
+}
+
+.top-menu > ul > li {
+  display: inline;
+  padding: 5px;
+}
+
+.top-menu > ul > li > img {
+  width: 20px;
 }
 
 .sidebar > img {
@@ -42,4 +62,25 @@ a {
 
 #list {
   font-weight: bold;
+}
+
+.tab {
+  list-style-type: none;
+  padding-top: 5%;
+  padding-left: 14%;
+}
+
+ul.tab > li {
+  display: inline;
+  padding: 5px;
+}
+
+.main-body {
+  background-color: white;
+}
+
+.main {
+  width: 85%;
+  position:fixed;
+  right: 10px;
 }
