@@ -122,6 +122,10 @@ ul.tab > li {
   background-color: #e5ffed;
 }
 
+#day {
+  background-color: #e2edff;
+}
+
 .col-md-7 {
   box-sizing: border-box;
   padding:20px;
